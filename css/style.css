@@ -1,0 +1,13 @@
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.background-lightblue {
+  background: lightblue;
+  padding: 25px;
+  border-radius: 25px;
+}

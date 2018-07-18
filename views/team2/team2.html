@@ -1,0 +1,26 @@
+<div ng-app="team2" ng-controller="team2controller">
+  <div class="container">
+
+  <ng-include src="'partials/header.html'"></ng-include>
+
+    <div class="row">
+      <div class="col-xs-4"></div>
+      <div class="col-xs-4">
+        <form>
+          <div class="form-group">
+            <label for="inputNumberOne">Number One</label>
+            <input type="number" ng-model="firstNumber" class="form-control" id="inputNumberOne" placeholder="First Number">
+          </div>
+          <div class="form-group">
+            <label for="inputNumberTwo">Number Two</label>
+            <input type="number" ng-model="secondNumber" class="form-control" id="inputNumberTwo" placeholder="Second Number">
+          </div>
+            Answer: {{firstNumber}} + {{secondNumber}} = {{firstNumber + secondNumber}}
+        </form>
+      </div>
+      <div class="col-xs-4"></div>
+    </div>
+  </div>
+</div>
+
+<ng-include ng-controller="footerController" src="'partials/footer.html'"></ng-include>
